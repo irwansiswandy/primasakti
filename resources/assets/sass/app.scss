@@ -1,0 +1,11 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@font-face {
+  font-family: "UNDA-AngleItalic";
+  src: url('../public/fonts/UNDA-AngleItalic/UNDA-AngleItalic.ttf');
+}
+
+.navbar {
+	border: none;
+	border-radius: 0px;
+}

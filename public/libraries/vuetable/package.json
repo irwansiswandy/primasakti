@@ -1,0 +1,77 @@
+{
+  "name": "vuetable",
+  "version": "1.3.1",
+  "description": "vue.js table component that will automatically request JSON data from server and display them nicely in HTML table with swap-able/extensible pagination component",
+  "main": "dist/vue-table.js",
+  "dependencies": {
+    "vue": "~1.0.21",
+    "vue-resource": "~0.7"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserify": {
+    "transform": [
+      "vueify"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ratiw/vue-table.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "table",
+    "component",
+    "json",
+    "pagination"
+  ],
+  "author": {
+    "name": "Rati Wannapanop",
+    "email": "rati.wannapanop@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ratiw/vue-table/issues"
+  },
+  "homepage": "https://github.com/ratiw/vue-table#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-runtime": "^6.9.2",
+    "browserify": "13.0.1",
+    "uglify-js": "^2.6.2",
+    "vueify": "^8.5.4",
+    "watchify": "3.7.0"
+  },
+  "gitHead": "bfba7cc644cbcbb2c8863417f3a13a0a3cbf3409",
+  "_id": "vuetable@1.3.1",
+  "_shasum": "792be989f2818609b3e84b8848b9260d3287980f",
+  "_from": "vuetable@latest",
+  "_npmVersion": "3.10.3",
+  "_nodeVersion": "6.3.1",
+  "_npmUser": {
+    "name": "ratiw",
+    "email": "rati.wannapanop@gmail.com"
+  },
+  "dist": {
+    "shasum": "792be989f2818609b3e84b8848b9260d3287980f",
+    "tarball": "https://registry.npmjs.org/vuetable/-/vuetable-1.3.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "ratiw",
+      "email": "rati.wannapanop@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/vuetable-1.3.1.tgz_1470800245791_0.09759436687454581"
+  },
+  "_resolved": "https://registry.npmjs.org/vuetable/-/vuetable-1.3.1.tgz"
+}

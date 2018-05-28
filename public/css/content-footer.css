@@ -1,0 +1,29 @@
+#page-header-admin {
+	width: 100%;
+	background-color: black;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#web-footer p {
+	color: gray;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+#posSystem {
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+#user-content {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D1D2D4;
+	border-radius: 3px;
+	padding: 10px 10px 10px 10px;
+}

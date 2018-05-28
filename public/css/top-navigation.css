@@ -1,0 +1,22 @@
+.navbar-inverse {
+	width: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	border-radius: 0px 0px 0px 0px;
+	border-width: 0px;
+	background-color: black;
+}
+
+.navbar-header .navbar-brand a {
+	color: black;
+}
+
+#workshop-status {
+	width: 100%;
+	background-color: #FFF100;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 9px;
+}

@@ -1,0 +1,115 @@
+@media screen {
+  #printed-invoice {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+  #invoice-list-border {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px 5px 5px 5px;
+    border-color:#D1D2D4;
+    height: 602px;
+    overflow-y: scroll;
+  }
+  #invoice-list-border table thead {
+    background-color: #D1D2D4;
+  }
+  #invoice-list-border table thead th {
+    font-size: 14px;
+  }
+  #invoice-list-border table tbody tr {
+    font-size: 12px;
+  }
+  #product-list-border-product {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px 5px 5px 5px;
+    border-color:#D1D2D4;
+    height: 150px;
+    overflow-y: scroll;
+  }
+  #product-list-border-product table {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 97.5%;
+  }
+  #product-list-border-product table tr {
+    display: block;
+  }
+  #product-list-border-product table tr:hover {
+    cursor: pointer;
+    background-color: #00ADEF;
+    font-weight: bold;
+    color: white;
+  }
+  #product-list-border-product table tr td {
+    font-size: 12px;
+  }
+  #product-list-border-option {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px 5px 5px 5px;
+    border-color:#D1D2D4;
+    height: 90px;
+    overflow-y: scroll;
+  }
+  #product-list-border-option table {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 97.5%;
+  }
+  #product-list-border-option table tr {
+    display: block;
+  }
+  #product-list-border-option table tr:hover {
+    cursor: pointer;
+    background-color: #D1D2D4;
+  }
+  #product-list-border-option table tr td {
+    font-size: 12px;
+  }
+  #selected {
+    font-weight: normal;
+    font-size: 12px;
+    color: blue;
+  }
+  #page_message {
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+  }
+  #search-result-list ul li {
+    cursor: pointer;
+  }
+  #search-result-list ul li {
+    font-size: 11px;
+  }
+  #search-result-list ul li:hover {
+    background-color: #D1D2D4;
+  }
+}
+
+@media print {
+  /*
+  .hidden-print {
+    display: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+  */
+  html, body {
+    width: 76mm;
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+  }
+  #printed-invoice table tbody tr {
+    font-size: 11px;
+  }
+}
